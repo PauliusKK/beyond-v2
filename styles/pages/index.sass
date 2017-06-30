@@ -1,0 +1,168 @@
+section.background-video
+    background: linear-gradient(0deg, rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7)), url("http://uploads.webflow.com/58c80ad0cae5d26223d71eaa/58c80b0eb12a6eb630b41547_Bitmap.png") no-repeat
+    background-size: cover
+    height: calc(100vh - 75px)
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+    .main
+        margin-top: auto
+        text-align: center
+
+        h1, p
+            margin: 0
+
+        h1
+            font-family: $Roboto
+            font-size: 48px
+            font-weight: 100
+            font-style: normal
+            font-stretch: normal
+            line-height: 1.25
+            letter-spacing: normal
+            color: white
+            padding: 0 20px
+            display: block
+            margin: 0 auto
+
+            span
+                opacity: 0.3
+                transition: opacity 500ms ease-in
+
+                &.fadeIn
+                    opacity: 1
+
+
+        p
+            font-family: $Roboto
+            font-size: 20px
+            font-weight: 300
+            font-style: normal
+            font-stretch: normal
+            line-height: 3.15
+            letter-spacing: normal
+            color: #525252
+            margin-top: -5px
+
+    .button-down
+        margin-top: auto
+        margin-bottom: 35px
+
+        i
+            transform: rotate(90deg)
+            color: white
+            display: inline-block
+            font-size: 20px
+
+section.beyond-training-program
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.91)
+    background: linear-gradient(0deg, rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)), url("http://i.giphy.com/3o7P4A0JWgkVfxtgly.gif") no-repeat
+    background-size: 100% auto
+
+    .container
+
+        .content
+            text-align: center
+            margin: 0 auto
+            padding-top: 135px
+            padding-bottom: 190px
+
+            .workshop-wrapper
+                display: inline-block
+                margin-left: 0
+                padding-bottom: 3px
+
+                a.workshop-text
+                    display: inline-block
+                    background-color: transparent
+                    padding: 1px 4px
+                    margin-left: 0
+                    font-size: 16px
+                    font-family: $Roboto
+                    letter-spacing: 4px
+                    font-weight: 300
+                    color: white
+                    text-transform: uppercase
+                    line-height: 21px
+                    text-decoration: none
+                    transition: all 600ms ease
+
+                    .dashed-line
+                        height: 4px
+                        margin-left: -4px
+                        opacity: 1
+                        padding-bottom: 0
+                        margin-bottom: 0
+                        width: calc(100% + 8px)
+                        transition: all 500ms ease
+
+                        &.active
+                            opacity: 0
+
+                    &.active
+                        background-color: hsla(0, 0%, 100%, 0.12)
+
+                a.workshop-button
+                    margin-left: 30px
+                    opacity: 0
+                    background-color: rgba(191, 62, 62, 0.5)
+                    font-family: $RobotoMono
+                    color: white
+                    text-decoration: none
+                    padding: 4px 12px
+                    line-height: 20px
+                    position: relative
+                    top: 1px
+                    display: inline-block
+                    text-transform: uppercase
+                    font-size: 14px
+                    transition: all 400ms ease
+
+                    &.active
+                        margin-left: 10px
+                        opacity: 1
+
+                    &:hover
+                        padding-left: 16px
+                        padding-right: 16px
+                        background-color: #bf3e3e
+
+            h1
+                font-family: $RobotoMono
+                font-size: 50px
+                font-weight: 300
+                font-style: normal
+                font-stretch: normal
+                line-height: normal
+                letter-spacing: 6.7px
+                color: white
+                text-transform: uppercase
+
+            p
+                font-family: $Roboto
+                font-size: 22px
+                font-weight: 300
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.59
+                letter-spacing: 0.5px
+                color: #949494
+                padding: 0 215px
+
+            .button-div
+                opacity: 1
+                top: 0px
+                margin-top: 40px
+
+                span
+                    text-indent: -10px
+                    display: inline-block
+
+                    &.active
+                        text-indent: 0px
+
+                    i
+                        display: none

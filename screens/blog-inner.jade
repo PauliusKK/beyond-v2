@@ -1,0 +1,134 @@
+doctype html
+html(lang='en-US')
+    head
+        include ../mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="../styles/main.css")
+
+    body
+        include ../mixins/mixins
+        include ../mixins/main-header
+
+        section.blog-structure
+            .container
+                .left-side
+
+                    .video
+                        .wistia-video
+                            .wistia_responsive_padding(style="padding: 56.25% 0 0 0; position: relative;")
+                                .wistia_responsive_wrapper(style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;")
+                                    .wistia_embed.wistia_async_jxv4no0s6w(class="seo=false videoFoam=true", style="height: 100%; width: 100%;") &nbsp;
+
+
+                    .blog-container
+                        a.category(href="") Special Projects
+                        h1 When to Check Your Hole Cards at the Poker Table
+                        p The Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systems
+
+                        .answer
+                            h2 1. How to breakdown the systems at the table
+                            p The Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systems
+                            img(src="../images/cool-poker-player.jpg", alt="Answer Image")
+
+                        .answer
+                            h2 2. How to breakdown the systems at the table
+                            p The Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systems
+                            .qoute: h3 “You need to identify the nonverbal behaviors that focus on how those things. You need to do that now”
+
+                        .answer
+                            h2 3. How to breakdown the systems at the table
+                            p The Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systems
+
+                            p The Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systemsThe Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systems
+
+                            ol
+                                li The Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those systems
+                                li Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those syste.
+                                li West Hands are one of the most undervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those system and those.
+                                li The ndervalued part of the body. Learn how to pay attention to them and integrate them in what you are doing in this simple video where we discuss those system.
+
+
+                .right-side
+                    .author-information
+                        img(src="../images/cool-poker-player.jpg", alt="")
+                        //- .avatar
+
+                        h5 Who is Blake Eastman?
+                        p Psychology Professor at the City University of New York.
+                        p Founder of the Behavioral Research company The Nonverbal Group
+                        p Founder of School of Cards. The First Brick and Mortart poker School.
+                        p New to Tournaments. Have played 5 so far. 5k cash in 5k 6 max for 200k.
+                        p Going to have a crzy yea this serie. The First Brick and Mortart poker School.
+                        p New to Tournaments. Have played 5 so far. 5k cash in 5k 6 max for 200k. Going to have a crzy yea this series.
+                        p Also, like solving big problems and working on stuff.
+
+                        button Learn More
+
+
+                    .training-information
+                        h1 The Beyond Tells training
+
+                        ul.list-inline
+                            li.month
+                                h2 00
+                                    span MO
+
+                            li.day
+                                h2 00
+                                    span DAY
+
+                            li.hour
+                                h2 00
+                                    span HOUR
+
+                            li.second
+                                h2 00
+                                    span SEC
+
+                        button Learn More
+
+                        .visible-sm.breakthrough
+
+                    .take-empty-space
+
+
+        section.sign-up
+            .container
+                h1 What is the average blink rate at the poker table?
+                p Gain insights into this and dozens of other critical elements from the beyond tells study<br />Every single week. We did a lof of research :)
+
+                .selections
+                    input.name(type="text", placeholder="Name")
+                    input.email(type="email", placeholder="Email")
+                    button.sign-up-now(type="submit") SIGN UP NOW
+
+
+        footer.blog-footer
+            .container
+                ul.list-inline.upper-navigation
+                    li: a(href="") Home
+                    li: a(href="") About
+                    li: a(href="") Getting Started
+                    li: a(href="") Blog/Content
+                    li: a(href="") Free Workshop
+                    li: a(href="") The Training
+                    li: a(href="") Login
+                    li: a(href="") Contact
+
+                ul.list-inline.lower-navigation
+                    li: a(href="") Privacy Policy
+                    li: a(href="") Disclaimer
+                    li: a(href="") Designed by Blake
+
+                p &copy; Beyond Tells 2017 All Rights Reserved
+
+
+        include ../mixins/footer
+
+        // Main JS
+        script(src="../js/main.js")
+
+        // Video JS files
+        script(src="//fast.wistia.com/embed/medias/jxv4no0s6w.jsonp" async)
+        script(src="//fast.wistia.com/assets/external/E-v1.js" async)

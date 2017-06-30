@@ -1,0 +1,3394 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?4fh187");
+  src: url("fonts/icomoon.eot?4fh187#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?4fh187") format("truetype"), url("fonts/icomoon.woff?4fh187") format("woff"), url("fonts/icomoon.svg?4fh187#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Helvetica Neue LT Std 45 Light"), url("fonts/HelveticaNeueLTStd Lt.woff") format("woff");
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-arrow:before {
+  content: "\e912";
+}
+
+.icon-play:before {
+  content: "\e917";
+}
+
+.icon-menu-close:before {
+  content: "\e918";
+}
+
+.icon-icon-computer:before {
+  content: "\e919";
+}
+
+.icon-icon-nyc:before {
+  content: "\e91a";
+}
+
+.icon-icon-smile:before {
+  content: "\e91b";
+}
+
+.icon-icon-cup:before {
+  content: "\e91c";
+}
+
+.icon-icon-timer:before {
+  content: "\e91d";
+}
+
+.icon-icon-heart:before {
+  content: "\e91e";
+}
+
+.icon-facebook:before {
+  content: "\e90e";
+}
+
+.icon-next:before {
+  content: "\e90f";
+}
+
+.icon-search:before {
+  content: "\e910";
+}
+
+.icon-prev:before {
+  content: "\e911";
+}
+
+.icon-social-instagram:before {
+  content: "\e90a";
+}
+
+.icon-social-facebook:before {
+  content: "\e90b";
+}
+
+.icon-social-youtube:before {
+  content: "\e90c";
+}
+
+.icon-social-twitter:before {
+  content: "\e90d";
+}
+
+.icon-icon-close:before {
+  content: "\e909";
+}
+
+.icon-map:before {
+  content: "\e900";
+}
+
+.icon-chip .path1:before {
+  content: "\e901";
+  color: white;
+}
+
+.icon-chip .path2:before {
+  content: "\e902";
+  margin-left: -2.25em;
+  color: black;
+}
+
+.icon-chip .path3:before {
+  content: "\e903";
+  margin-left: -2.25em;
+  color: white;
+}
+
+.icon-chip .path4:before {
+  content: "\e904";
+  margin-left: -2.25em;
+  color: black;
+}
+
+.icon-chip .path5:before {
+  content: "\e905";
+  margin-left: -2.25em;
+  color: black;
+}
+
+.icon-card:before {
+  content: "\e906";
+}
+
+.icon-arrow-right:before {
+  content: "\e907";
+}
+
+.icon-arrow-down:before {
+  content: "\e908";
+  color: #fff;
+}
+
+header.main-header nav {
+  background-color: black;
+  border: none;
+  margin-bottom: 0;
+}
+
+header.main-header nav .navbar-header {
+  height: 75px;
+  margin-left: 30px;
+}
+
+header.main-header nav .navbar-header a {
+  font-size: 15px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+  letter-spacing: 5px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+header.main-header nav .navbar-right {
+  margin-right: 45px;
+}
+
+header.main-header nav .navbar-right ul li {
+  line-height: 75px;
+  display: table;
+}
+
+header.main-header nav .navbar-right ul li button {
+  background-color: transparent;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  border: none;
+  box-shadow: none;
+  vertical-align: middle;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  position: relative;
+  outline: none;
+  padding: 0 38px;
+  z-index: 10;
+}
+
+header.main-header nav .navbar-right ul li button span:not(.text) {
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  opacity: 1;
+  width: 25px;
+  right: 0;
+  float: right;
+  top: 0;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+header.main-header nav .navbar-right ul li button span:not(.text).extended {
+  width: 80px !important;
+  background-color: #bf3e3e !important;
+}
+
+header.main-header nav .navbar-right ul li button span:not(.text).halfway-open {
+  width: 25px !important;
+  background-color: #bf3e3e !important;
+}
+
+header.main-header nav .navbar-right ul li button span:nth-child(2) {
+  top: 0px;
+}
+
+header.main-header nav .navbar-right ul li button span:nth-child(2).opened {
+  width: 20px !important;
+  background-color: #bf3e3e !important;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 8px;
+}
+
+header.main-header nav .navbar-right ul li button span:nth-child(3), header.main-header nav .navbar-right ul li button span:nth-child(4) {
+  top: 7px;
+}
+
+header.main-header nav .navbar-right ul li button span:nth-child(5) {
+  top: 14px;
+}
+
+header.main-header nav .navbar-right ul li button span:nth-child(5).opened {
+  width: 20px !important;
+  background-color: #bf3e3e !important;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 8px;
+}
+
+button.btn-red-main {
+  border: none;
+  background-color: rgba(191, 62, 62, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  height: 68px;
+  line-height: 68px;
+  color: white;
+  letter-spacing: 2.9px;
+  margin: 0 auto;
+  display: block;
+  line-height: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0 60px;
+  margin-top: 60px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  transition: all 0.15s linear;
+}
+
+button.btn-red-main:hover, button.btn-red-main:active, button.btn-red-main:focus {
+  background-color: rgba(191, 62, 62, 0.7);
+}
+
+.button-div {
+  position: relative;
+  opacity: 0;
+  top: 50px;
+  display: inline-block;
+  transition: all 1000ms ease-in-out;
+}
+
+.button-div.fadeIn {
+  opacity: 1;
+  top: 0;
+}
+
+.button-div span {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.9px;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  line-height: 68px;
+  left: 0;
+  top: 15px;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  text-indent: -30px;
+  padding: 0 61px;
+  white-space: nowrap;
+  transition: text-indent 700ms ease-in-out;
+}
+
+.button-div span.active {
+  text-indent: 0;
+}
+
+.button-div span i {
+  position: relative;
+  left: 30px;
+  opacity: 1;
+  transition: opacity 600ms ease-out;
+}
+
+.button-div span i.active {
+  opacity: 0;
+}
+
+.button-div .button-wipe {
+  position: absolute;
+  top: 15px;
+  width: 0%;
+  height: 68px;
+  right: 0;
+  bottom: 0;
+  background-color: #bf3e3e;
+  transition: width 700ms ease-in-out;
+}
+
+.button-div .button-wipe.active {
+  width: 100%;
+}
+
+.button-div button {
+  margin-top: 15px;
+  transition: all 700ms ease-in-out;
+  color: transparent;
+}
+
+.button-div button.active {
+  box-shadow: 0 10px 20px 0 rgba(191, 62, 62, 0.5);
+}
+
+.fadeMe {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  top: 0;
+  overflow: hidden;
+  left: 0;
+  position: fixed;
+  opacity: 0;
+  background-color: black;
+  display: none;
+}
+
+nav.menu-appear {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  bottom: 0;
+  display: block;
+  background-color: transparent !important;
+  float: right;
+  z-index: 5;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+}
+
+nav.menu-appear ol {
+  margin-left: 30px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #454545;
+  clear: both;
+  margin-top: 50px;
+}
+
+nav.menu-appear ol .dashed-line-appoint {
+  background-image: linear-gradient(to right, #505050 70%, transparent 70%);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 4px 1px;
+  width: calc(100% - 30px);
+  height: 1px;
+  margin-left: -1px;
+  margin-top: -20px;
+}
+
+nav.menu-appear ol li:before {
+  content: attr(item) "";
+  margin-right: -2px;
+}
+
+nav.menu-appear ol li {
+  float: none;
+  transition: none;
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+  left: 270px;
+}
+
+nav.menu-appear ol li .dashed-heading .dashed-line {
+  width: 0px;
+}
+
+nav.menu-appear ol li a {
+  color: white;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.44;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  text-decoration: none;
+}
+
+nav.menu-appear ol li ul {
+  padding: 0;
+  padding-left: 28px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+nav.menu-appear ol li ul li {
+  margin-bottom: 10px;
+}
+
+nav.menu-appear ol li ul li:before {
+  margin: 0;
+}
+
+nav.menu-appear ol li ul li a {
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.69;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav.menu-appear footer {
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  padding: 15px 25px;
+  opacity: 0;
+}
+
+nav.menu-appear footer ul {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+nav.menu-appear footer ul li {
+  margin-left: 10px;
+}
+
+nav.menu-appear footer ul li i {
+  font-size: 19px;
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s ease-in;
+}
+
+nav.menu-appear footer ul li i:hover, nav.menu-appear footer ul li i:active, nav.menu-appear footer ul li i:focus {
+  color: #eb5b5b;
+}
+
+nav.menu-appear footer p {
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  text-align: center;
+  margin: 0;
+}
+
+section.blog-navigation .container ul {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-top: 65px;
+}
+
+section.blog-navigation .container ul li {
+  margin-left: 50px;
+}
+
+section.blog-navigation .container ul li:first-child {
+  margin-left: 0;
+}
+
+section.blog-navigation .container ul li a {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: #666;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+section.blog-navigation .container ul li a:hover, section.blog-navigation .container ul li a:active, section.blog-navigation .container ul li a:focus {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #979797;
+}
+
+section.blog-navigation .container ul li.active a {
+  color: white;
+}
+
+section.background-video.coming-soon-video .main {
+  margin-top: 0;
+  text-align: center;
+}
+
+section.background-video.coming-soon-video .main h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.23;
+  color: #d0d0d0;
+  max-width: 525px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+section.background-video.coming-soon-video .main button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  height: 65px;
+  line-height: 65px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  letter-spacing: 2.9px;
+  padding: 0 45px;
+  transition: all 0.15s linear;
+}
+
+section.background-video.coming-soon-video .main button:hover, section.background-video.coming-soon-video .main button:active, section.background-video.coming-soon-video .main button:focus {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+section.launch .container h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3.7px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: -50px;
+}
+
+section.launch .container h4 span:not(.launch-text) {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+section.launch .container h4 span.line {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+section.launch .container h4 span.launch-text {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  color: #9e3a3a;
+  margin-right: 15px;
+}
+
+section.launch .container .weekly-updates {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+section.launch .container .weekly-updates:nth-child(3) {
+  margin-top: -20px;
+}
+
+section.launch .container .weekly-updates h2 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1.58;
+  color: white;
+  margin: 0;
+}
+
+section.launch .container .weekly-updates p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  letter-spacing: -0.2px;
+  color: #d0d0d0;
+  margin: 0;
+}
+
+section.launch .container .weekly-updates .selections {
+  margin: 0 auto;
+}
+
+section.launch .container .weekly-updates .selections input {
+  border: 1px solid #242424;
+  background-color: #0b0b0b;
+  height: 68px;
+  color: #adadad;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  letter-spacing: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  outline: none;
+  padding-right: 0px;
+  max-width: 230px;
+}
+
+section.launch .container .weekly-updates .selections input.email {
+  margin-left: 3px;
+  max-width: 290px;
+}
+
+section.launch .container .weekly-updates .selections button {
+  box-shadow: none;
+  border: none;
+  background-color: rgba(191, 62, 62, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 2.9px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-transform: uppercase;
+  padding: 0 50px;
+  height: 68px;
+  line-height: 68px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 45px;
+  margin-left: 3px;
+  transition: all 0.15s linear;
+}
+
+section.launch .container .weekly-updates .selections button:hover, section.launch .container .weekly-updates .selections button:active, section.launch .container .weekly-updates .selections button:focus {
+  background-color: rgba(159, 51, 51, 0.5);
+}
+
+section.launch .container .weekly-updates .selections span {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #555;
+  letter-spacing: 4px;
+  margin-top: 25px;
+}
+
+section.landing-main {
+  height: calc(100vh - 75px);
+  margin-bottom: 55px;
+}
+
+section.landing-main .container {
+  width: 100%;
+  max-width: 1045px;
+  text-align: center;
+}
+
+section.landing-main .container h4 {
+  font-weight: 300;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+  margin: 0;
+  margin-top: 60px;
+}
+
+section.landing-main .container h2 {
+  font-size: 48px;
+  line-height: 1.31;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+}
+
+section.landing-main .container p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #858585;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 0 45px;
+}
+
+section.landing-main .container img {
+  width: 900px;
+  height: 455px;
+}
+
+section.landing-main .container button {
+  box-shadow: none;
+  border: none;
+  background-color: rgba(191, 62, 62, 0.5);
+  color: white;
+  font-size: 22px;
+  letter-spacing: 3.5px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-transform: uppercase;
+  padding: 0 50px;
+  height: 75px;
+  line-height: 75px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 55px;
+  transition: all 0.15s linear;
+}
+
+section.landing-main .container button:hover, section.landing-main .container button:active, section.landing-main .container button:focus {
+  background-color: rgba(159, 51, 51, 0.5);
+}
+
+section.blog-structure {
+  margin-top: 100px;
+  margin-bottom: 125px;
+}
+
+section.blog-structure .container {
+  width: 1180px;
+  max-width: 1180px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.blog-structure .container .left-side {
+  max-width: 860px;
+  width: 70%;
+  float: left;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+section.blog-structure .container .left-side img {
+  width: 100%;
+  max-height: 440px;
+}
+
+section.blog-structure .container .left-side .blog-container {
+  padding: 0 55px;
+  margin-top: 25px;
+}
+
+section.blog-structure .container .left-side .blog-container a.category {
+  font-size: 14px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.07;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #979797;
+  text-decoration: none;
+}
+
+section.blog-structure .container .left-side .blog-container h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  margin-top: 25px;
+}
+
+section.blog-structure .container .left-side .blog-container p, section.blog-structure .container .left-side .blog-container ol li {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #323232;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  margin-top: 10px;
+}
+
+section.blog-structure .container .left-side .blog-container .answer {
+  margin-top: 50px;
+}
+
+section.blog-structure .container .left-side .blog-container .answer p {
+  margin-top: 20px;
+}
+
+section.blog-structure .container .left-side .blog-container .answer h2 {
+  margin: 0;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: black;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+section.blog-structure .container .left-side .blog-container .answer img {
+  width: 100%;
+  height: 100%;
+  margin-top: 45px;
+}
+
+section.blog-structure .container .left-side .blog-container .answer ol {
+  padding-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+section.blog-structure .container .left-side .blog-container .answer .qoute {
+  border: 1px solid #dadada;
+  background-color: #f7f7f7;
+  margin-top: 50px;
+}
+
+section.blog-structure .container .left-side .blog-container .answer .qoute h3 {
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+  padding: 0 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section.blog-structure .container .right-side {
+  max-width: 300px;
+  width: 30%;
+  margin-left: 20px;
+  float: left;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  margin-bottom: -2px;
+}
+
+section.blog-structure .container .right-side .author-information {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #0b0b0b;
+}
+
+section.blog-structure .container .right-side .author-information img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #252424;
+  width: 138px;
+  max-width: 138px;
+  height: 138px;
+  max-height: 138px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 25px;
+}
+
+section.blog-structure .container .right-side .author-information h5 {
+  margin: 0;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  display: inline-block;
+  color: white;
+  border-bottom: 2px solid #252424;
+  padding-bottom: 6px;
+  margin-left: 32px;
+  margin-top: 70px;
+}
+
+section.blog-structure .container .right-side .author-information p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #bfbfbf;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 32px;
+  padding-right: 25px;
+}
+
+section.blog-structure .container .right-side .author-information button {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #171717;
+  border: none;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 50px;
+  margin-left: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: all 0.15s linear;
+}
+
+section.blog-structure .container .right-side .author-information button:hover, section.blog-structure .container .right-side .author-information button:active, section.blog-structure .container .right-side .author-information button:focus {
+  background-color: #141414;
+}
+
+section.blog-structure .container .right-side .training-information {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #0b0b0b;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+section.blog-structure .container .right-side .training-information h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: 1.6px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 25px;
+}
+
+section.blog-structure .container .right-side .training-information ul {
+  text-align: center;
+  margin-top: 15px;
+}
+
+section.blog-structure .container .right-side .training-information ul li {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: black;
+  opacity: 0.5;
+  height: 60px;
+  margin-left: 10px;
+}
+
+section.blog-structure .container .right-side .training-information ul li:first-child {
+  margin-left: 0;
+}
+
+section.blog-structure .container .right-side .training-information ul li h2 {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+section.blog-structure .container .right-side .training-information ul li h2 span {
+  display: block;
+  font-size: 9px;
+  font-weight: 100;
+  letter-spacing: 0.6px;
+}
+
+section.blog-structure .container .right-side .training-information button {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #743332;
+  border: none;
+  height: 50px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 65px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  transition: all 0.15s linear;
+}
+
+section.blog-structure .container .right-side .training-information button:hover, section.blog-structure .container .right-side .training-information button:active, section.blog-structure .container .right-side .training-information button:focus {
+  background-color: #692f2e;
+}
+
+section.blog-structure .container .right-side .take-empty-space {
+  height: 100%;
+  width: 300px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #0b0b0b;
+  margin-top: 20px;
+}
+
+section.content .container {
+  max-width: 920px;
+}
+
+section.content .container .video {
+  margin-bottom: 70px;
+  margin-top: 125px;
+}
+
+section.content .container .video .wistia-video {
+  max-width: 900px;
+}
+
+section.content .container h3, section.content .container .free-things ul {
+  color: white;
+  line-height: 1.61;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
+
+section.content .container p, section.content .container .free-things ul li a {
+  line-height: 1.75;
+  color: #d0d0d0;
+  letter-spacing: -0.2px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
+
+section.content .container p {
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+section.content .container .free-things {
+  margin-left: 0;
+  margin-bottom: 65px;
+}
+
+section.content .container .free-things ul {
+  list-style: inside;
+}
+
+section.content .container .free-things ul li {
+  margin-bottom: 20px;
+  width: 115%;
+}
+
+section.content .container .free-things ul li:first-child {
+  margin-top: 30px;
+}
+
+section.content .container .free-things ul li:last-child {
+  margin-bottom: 45px;
+}
+
+section.content .container .free-things ul li .workshop-wrapper {
+  display: inline;
+  margin-left: -15px;
+  padding-bottom: 3px;
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-text {
+  display: inline-block;
+  background-color: transparent;
+  padding: 1px 4px;
+  margin-left: 0;
+  line-height: 21px;
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: all 600ms ease;
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-text .dashed-line {
+  height: 4px;
+  margin-left: -4px;
+  opacity: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: calc(100% + 8px);
+  transition: all 500ms ease;
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-text .dashed-line.active {
+  opacity: 0;
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-text.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-button {
+  margin-left: 30px;
+  opacity: 0;
+  background-color: rgba(191, 62, 62, 0.5);
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 4px 12px;
+  line-height: 20px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 400ms ease;
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-button.active {
+  margin-left: 10px;
+  opacity: 1;
+}
+
+section.content .container .free-things ul li .workshop-wrapper a.workshop-button:hover {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #bf3e3e;
+}
+
+section.background-video {
+  background: linear-gradient(0deg, rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7)), url("http://uploads.webflow.com/58c80ad0cae5d26223d71eaa/58c80b0eb12a6eb630b41547_Bitmap.png") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 75px);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.background-video .main {
+  margin-top: auto;
+  text-align: center;
+}
+
+section.background-video .main h1, section.background-video .main p {
+  margin: 0;
+}
+
+section.background-video .main h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: white;
+  padding: 0 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+section.background-video .main h1 span {
+  opacity: 0.3;
+  transition: opacity 500ms ease-in;
+}
+
+section.background-video .main h1 span.fadeIn {
+  opacity: 1;
+}
+
+section.background-video .main p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.15;
+  letter-spacing: normal;
+  color: #525252;
+  margin-top: -5px;
+}
+
+section.background-video .button-down {
+  margin-top: auto;
+  margin-bottom: 35px;
+}
+
+section.background-video .button-down i {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+
+section.beyond-training-program {
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.91);
+  background: linear-gradient(0deg, rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)), url("http://i.giphy.com/3o7P4A0JWgkVfxtgly.gif") no-repeat;
+  background-size: 100% auto;
+}
+
+section.beyond-training-program .container .content {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 135px;
+  padding-bottom: 190px;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper {
+  display: inline-block;
+  margin-left: 0;
+  padding-bottom: 3px;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-text {
+  display: inline-block;
+  background-color: transparent;
+  padding: 1px 4px;
+  margin-left: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  line-height: 21px;
+  text-decoration: none;
+  transition: all 600ms ease;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-text .dashed-line {
+  height: 4px;
+  margin-left: -4px;
+  opacity: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: calc(100% + 8px);
+  transition: all 500ms ease;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-text .dashed-line.active {
+  opacity: 0;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-text.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-button {
+  margin-left: 30px;
+  opacity: 0;
+  background-color: rgba(191, 62, 62, 0.5);
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 4px 12px;
+  line-height: 20px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 400ms ease;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-button.active {
+  margin-left: 10px;
+  opacity: 1;
+}
+
+section.beyond-training-program .container .content .workshop-wrapper a.workshop-button:hover {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #bf3e3e;
+}
+
+section.beyond-training-program .container .content h1 {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 6.7px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section.beyond-training-program .container .content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 0.5px;
+  color: #949494;
+  padding: 0 215px;
+}
+
+section.beyond-training-program .container .content .button-div {
+  opacity: 1;
+  top: 0px;
+  margin-top: 40px;
+}
+
+section.beyond-training-program .container .content .button-div span {
+  text-indent: -10px;
+  display: inline-block;
+}
+
+section.beyond-training-program .container .content .button-div span.active {
+  text-indent: 0px;
+}
+
+section.beyond-training-program .container .content .button-div span i {
+  display: none;
+}
+
+section.about-us-container {
+  background-color: #0e0e0e;
+  position: relative;
+}
+
+section.about-us-container .background {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(11, 11, 11, 0.92), rgba(11, 11, 11, 0.92)), url(../images/poker-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+section.about-us-container .background.active {
+  display: inherit;
+}
+
+section.about-us-container .container {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+section.about-us-container .container.moved-up {
+  margin-top: -515px;
+}
+
+section.about-us-container .container .video {
+  margin-top: 60px;
+  margin-bottom: 85px;
+}
+
+section.about-us-container .container ul {
+  display: inline-block;
+  margin: 0 auto;
+  border: none;
+  margin-top: 75px;
+}
+
+section.about-us-container .container ul.moved-up {
+  margin-bottom: 390px;
+}
+
+section.about-us-container .container ul li {
+  border-bottom: 2px solid transparent;
+  margin-left: 55px;
+}
+
+section.about-us-container .container ul li:first-child {
+  margin-left: 0;
+}
+
+section.about-us-container .container ul li:hover, section.about-us-container .container ul li:active, section.about-us-container .container ul li:focus {
+  border-color: white;
+}
+
+section.about-us-container .container ul li:hover a, section.about-us-container .container ul li:active a, section.about-us-container .container ul li:focus a {
+  color: white;
+}
+
+section.about-us-container .container ul li a {
+  color: rgba(208, 208, 208, 0.25);
+  font-family: "Roboto Mono", monospace, sans-serif;
+  line-height: 1.47;
+  letter-spacing: -0.2px;
+  font-size: 19px;
+  padding-bottom: 8px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section.about-us-container .container ul li a:hover, section.about-us-container .container ul li a:active, section.about-us-container .container ul li a:focus {
+  background-color: transparent;
+}
+
+section.about-us-container .container ul li.active {
+  border-bottom: 2px solid white;
+}
+
+section.about-us-container .container ul li.active a {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+section.about-us-container .container .tab-content #our-story {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section.about-us-container .container .tab-content #our-story .answer {
+  text-align: left;
+}
+
+section.about-us-container .container .tab-content #our-story .answer h3 {
+  color: white;
+  line-height: 1.61;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
+
+section.about-us-container .container .tab-content #our-story .answer p {
+  line-height: 1.75;
+  color: #d0d0d0;
+  letter-spacing: -0.2px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
+
+section.about-us-container .container .tab-content #our-story .answer p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles {
+  margin-bottom: 65px;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article {
+  margin-top: 25px;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article:first-child {
+  margin-top: 0;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper {
+  display: inline;
+  padding-bottom: 3px;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-text {
+  display: inline-block;
+  background-color: transparent;
+  padding: 1px 4px;
+  margin-left: 0;
+  line-height: 21px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: normal;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: all 600ms ease;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-text .dashed-line {
+  height: 4px;
+  margin-left: -4px;
+  opacity: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: calc(100% + 8px);
+  transition: all 500ms ease;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-text .dashed-line.active {
+  opacity: 0;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-text.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-button {
+  margin-left: 30px;
+  opacity: 0;
+  background-color: rgba(191, 62, 62, 0.5);
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 4px 12px;
+  line-height: 20px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 400ms ease;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-button.active {
+  margin-left: 10px;
+  opacity: 1;
+}
+
+section.about-us-container .container .tab-content #our-story .answer .articles .article .workshop-wrapper a.workshop-button:hover {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #bf3e3e;
+}
+
+section.about-us-container .container .tab-content #our-story .information {
+  margin-top: 130px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box {
+  display: inline-block;
+  width: 296.5px;
+  height: 284.9px;
+  border: solid 0.5px #383838;
+  max-width: 296.5px;
+  min-width: 296.5px;
+  min-height: 284.9px;
+  max-height: 284.9px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex: 1 296.5px;
+      -ms-flex: 1 296.5px;
+          flex: 1 296.5px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(2), section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(5) {
+  border-left: none;
+  border-right: none;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(4), section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(5), section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(6) {
+  border-top: none;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box i {
+  color: white;
+  font-size: 100px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box span {
+  font-size: 130px;
+  font-family: font37300, sans-serif;
+  letter-spacing: -6.4px;
+  color: #404040;
+  text-align: center;
+  line-height: 100px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box p {
+  margin-top: 25px;
+  padding: 0 18.5px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: left;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(n+2) p {
+  padding: 0 40px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .boxes .info-box:nth-child(4) p {
+  padding: 0 30px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .software-used {
+  margin-top: 105px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .software-used p {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 0.07;
+  color: white;
+}
+
+section.about-us-container .container .tab-content #our-story .information .software-used .icons {
+  margin-top: 35px;
+  margin-bottom: 150px;
+}
+
+section.about-us-container .container .tab-content #our-story .information .software-used .icons .icon {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+section.about-us-container .container .tab-content #our-story .information .software-used .icons .icon:first-child {
+  margin-left: 0;
+}
+
+section.about-us-container .tab-content #the-bio {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section.about-us-container .tab-content #the-bio .about-main {
+  margin-top: 70px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main, section.about-us-container .tab-content #the-bio .about-person {
+  background-color: #0a0a0a;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  text-align: left;
+  overflow: auto;
+  position: relative;
+}
+
+section.about-us-container .tab-content #the-bio .about-main h1, section.about-us-container .tab-content #the-bio .about-person h1 {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  color: white;
+  margin: 0;
+  padding-top: 40px;
+  margin-left: 75px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main h3, section.about-us-container .tab-content #the-bio .about-person h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2.3px;
+  color: #d2d2d2;
+  margin: 0;
+  margin-left: 75px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main img.fluid, section.about-us-container .tab-content #the-bio .about-person img.fluid {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 70px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+section.about-us-container .tab-content #the-bio .about-main img.person, section.about-us-container .tab-content #the-bio .about-person img.person {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section.about-us-container .tab-content #the-bio .about-main ol, section.about-us-container .tab-content #the-bio .about-person ol {
+  padding: 0 100px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main ol li, section.about-us-container .tab-content #the-bio .about-person ol li {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: -0.6px;
+  color: #cacaca;
+  margin-top: 15px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main ol li:first-child, section.about-us-container .tab-content #the-bio .about-person ol li:first-child {
+  margin-top: 0;
+}
+
+section.about-us-container .tab-content #the-bio .about-main .featured, section.about-us-container .tab-content #the-bio .about-person .featured {
+  border-top: 1px solid rgba(151, 151, 151, 0.15);
+  text-align: center;
+  margin: 0 75px;
+  margin-top: 45px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main .featured span, section.about-us-container .tab-content #the-bio .about-person .featured span {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  color: #cacaca;
+  padding: 0 35px;
+  background-color: #0e0e0e;
+  top: -12px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+section.about-us-container .tab-content #the-bio .about-main .featured .icons, section.about-us-container .tab-content #the-bio .about-person .featured .icons {
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+
+section.about-us-container .tab-content #the-bio .about-main .featured .icons .icon, section.about-us-container .tab-content #the-bio .about-person .featured .icons .icon {
+  margin-left: 80px;
+  display: inline-block;
+}
+
+section.about-us-container .tab-content #the-bio .about-main .featured .icons .icon:first-child, section.about-us-container .tab-content #the-bio .about-person .featured .icons .icon:first-child {
+  margin-left: 0;
+}
+
+section.about-us-container .tab-content #the-bio .about-person {
+  margin-top: 60px;
+}
+
+section.about-us-container .tab-content #the-bio .about-person h1 {
+  padding-top: 65px;
+}
+
+section.about-us-container .tab-content #the-bio .about-person p {
+  margin-left: 75px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.13;
+  color: #d0d0d0;
+  padding-right: calc(40% + 55px);
+  margin-bottom: 50px;
+}
+
+section.about-us-container .tab-content #the-bio .heart-container {
+  margin-top: 115px;
+  margin-bottom: 100px;
+}
+
+section.about-us-container .tab-content #the-bio .heart-container i {
+  color: white;
+  font-size: 60px;
+}
+
+section.about-us-container .tab-content #the-bio .heart-container p {
+  color: #d0d0d0;
+  text-align: center;
+  letter-spacing: -0.2px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  padding: 0 25px;
+  margin-top: 45px;
+}
+
+section.blog-posts .container {
+  padding: 0;
+  width: 1180px;
+  max-width: 1180px;
+  margin-top: 95px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+section.blog-posts .container .dashed-heading a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+section.blog-posts .container .dashed-heading .dashed-line {
+  height: 5px;
+  width: 99.5%;
+}
+
+section.blog-posts .container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  padding: 0 20px;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+section.blog-posts .container .workshop-wrapper {
+  display: inline-block;
+  margin-left: 0;
+  padding-bottom: 3px;
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-text {
+  display: inline-block;
+  background-color: transparent;
+  padding: 1px 4px;
+  margin-left: 0;
+  line-height: 21px;
+  color: #d0d0d0;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 600ms ease;
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-text .dashed-line {
+  height: 4px;
+  margin-left: -4px;
+  opacity: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: calc(100% + 8px);
+  transition: all 500ms ease;
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-text .dashed-line.active {
+  opacity: 0;
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-text.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-button {
+  margin-left: 30px;
+  opacity: 0;
+  background-color: rgba(191, 62, 62, 0.5);
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 4px 12px;
+  line-height: 20px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 400ms ease;
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-button.active {
+  margin-left: 10px;
+  opacity: 1;
+}
+
+section.blog-posts .container .workshop-wrapper a.workshop-button:hover {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #bf3e3e;
+}
+
+section.blog-posts .container .blog-post {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  max-width: 560px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  text-align: initial;
+  margin-bottom: 60px;
+}
+
+section.blog-posts .container .blog-post:nth-child(even) {
+  float: right;
+}
+
+section.blog-posts .container .blog-post img {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleY(1) scaleX(1);
+      -ms-transform: scaleY(1) scaleX(1);
+          transform: scaleY(1) scaleX(1);
+  z-index: -1;
+  transition: -webkit-transform 2000ms;
+  transition: transform 2000ms;
+  transition: transform 2000ms, -webkit-transform 2000ms;
+}
+
+section.blog-posts .container .blog-post img.active {
+  -webkit-transform: scaleY(1.1) scaleX(1.1);
+      -ms-transform: scaleY(1.1) scaleX(1.1);
+          transform: scaleY(1.1) scaleX(1.1);
+}
+
+section.blog-posts .container .blog-post .after-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: rgba(25, 25, 25, 0.8);
+  z-index: -1;
+  transition: background 1000ms ease;
+}
+
+section.blog-posts .container .blog-post .after-image.active {
+  background: rgba(25, 25, 25, 0.5);
+}
+
+section.blog-posts .container .blog-post .button-div {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  opacity: 1;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+section.blog-posts .container .blog-post .button-div span {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 45px;
+}
+
+section.blog-posts .container .blog-post .button-div span.active {
+  text-indent: -10px;
+}
+
+section.blog-posts .container .blog-post .button-div .button-wipe {
+  height: 45px;
+}
+
+section.blog-posts .container .blog-post .button-div button {
+  height: 45px;
+  padding: 0 40px;
+}
+
+section.blog-posts .container .blog-post h2 {
+  font-size: 34px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 50px;
+  margin-top: 55px;
+  padding-right: 40px;
+}
+
+section.main-page-blogs .container {
+  margin-top: 55px;
+}
+
+section.main-page-blogs .container .workshop-wrapper a.workshop-text {
+  display: inline-block;
+  background-color: transparent;
+  padding: 1px 4px;
+  margin-left: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  line-height: 21px;
+  text-decoration: none;
+  transition: all 600ms ease;
+}
+
+section.sign-up {
+  background: linear-gradient(rgba(11, 11, 11, 0.92), rgba(11, 11, 11, 0.92)), url(../images/cool-poker-player.jpg);
+  height: 550px;
+}
+
+section.sign-up .container h1 {
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-align: right;
+  margin-top: 105px;
+}
+
+section.sign-up .container p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-align: right;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+section.sign-up .container .selections {
+  float: right;
+  margin-bottom: 140px;
+}
+
+section.sign-up .container .selections input {
+  border: 1px solid #242424;
+  background-color: #171717;
+  height: 68px;
+  color: #adadad;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  letter-spacing: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  outline: none;
+  padding-right: 10px;
+}
+
+section.sign-up .container .selections input.email {
+  margin-left: 10px;
+}
+
+section.sign-up .container .selections button {
+  box-shadow: none;
+  border: none;
+  background-color: rgba(191, 62, 62, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 2.9px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-transform: uppercase;
+  padding: 0 50px;
+  height: 68px;
+  line-height: 68px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 60px;
+  margin-left: 15px;
+  transition: all 0.15s linear;
+}
+
+section.sign-up .container .selections button:hover, section.sign-up .container .selections button:active, section.sign-up .container .selections button:focus {
+  background-color: rgba(159, 51, 51, 0.5);
+}
+
+footer.blog-footer {
+  background-color: black;
+  overflow: auto;
+}
+
+footer.blog-footer .container {
+  padding: 0;
+}
+
+footer.blog-footer .container ul {
+  float: right;
+  display: block;
+  clear: both;
+  margin-right: 10px;
+  padding-left: 0;
+}
+
+footer.blog-footer .container ul li a {
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 400ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+footer.blog-footer .container ul li a:hover {
+  color: #eb5b5b;
+}
+
+footer.blog-footer .container ul.upper-navigation li {
+  margin-left: 40px;
+  margin-top: 75px;
+}
+
+footer.blog-footer .container ul.upper-navigation li:first-child {
+  margin-left: 0;
+}
+
+footer.blog-footer .container ul.upper-navigation li a {
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 2.2px;
+}
+
+footer.blog-footer .container ul.lower-navigation {
+  margin-top: 25px;
+}
+
+footer.blog-footer .container ul.lower-navigation li:first-child {
+  margin-left: 0;
+}
+
+footer.blog-footer .container ul.lower-navigation li a {
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.9px;
+}
+
+footer.blog-footer .container p {
+  clear: both;
+  float: right;
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.sign-up {
+    height: auto;
+  }
+  section.sign-up .container .selections {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 75px;
+  }
+  section.sign-up .container .selections button {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  a.workshop-text .dashed-line {
+    display: none;
+  }
+  nav.menu-appear {
+    overflow-y: scroll;
+  }
+  nav.menu-appear footer {
+    position: relative;
+    margin-top: 70px;
+  }
+  section.sign-up {
+    height: auto;
+  }
+  section.sign-up .container h1, section.sign-up .container p {
+    text-align: center;
+  }
+  section.sign-up .container h1 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 75px;
+  }
+  section.sign-up .container p {
+    font-size: 12px;
+    line-height: 1.75;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 0;
+  }
+  section.sign-up .container .selections {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding: 0 15px;
+  }
+  section.sign-up .container .selections input, section.sign-up .container .selections button {
+    width: 100%;
+  }
+  section.sign-up .container .selections input.email, section.sign-up .container .selections button {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  section.sign-up .container .selections input {
+    margin-bottom: 5px;
+  }
+  section.sign-up .container .selections button {
+    background-color: rgba(191, 62, 62, 0.77);
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header.main-header nav .navbar-header {
+    float: left;
+    margin-left: 0;
+    height: 50px;
+  }
+  header.main-header nav .navbar-right {
+    float: right;
+    margin-right: 0;
+  }
+  header.main-header nav .navbar-right ul {
+    margin: 0;
+    margin-right: 15px;
+  }
+  header.main-header nav .navbar-right ul li {
+    line-height: 50px;
+  }
+  header.main-header nav .navbar-right ul li button {
+    text-indent: -9999px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1249px) and (min-width: 1200px) {
+  footer.blog-footer ul {
+    margin-right: 15px;
+  }
+  footer.blog-footer ul.upper-navigation li {
+    margin-left: 35px !important;
+  }
+  footer.blog-footer p {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  footer.blog-footer {
+    overflow: visible;
+  }
+  footer.blog-footer .container ul {
+    padding: 0 150px;
+    float: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    list-style-type: none;
+  }
+  footer.blog-footer .container ul.upper-navigation {
+    margin-top: 30px;
+  }
+  footer.blog-footer .container ul.upper-navigation li {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  footer.blog-footer .container ul.lower-navigation {
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  footer.blog-footer .container p {
+    margin-right: 15px;
+    margin-bottom: 45px;
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  footer.blog-footer {
+    overflow: visible;
+  }
+  footer.blog-footer .container ul.upper-navigation {
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 0 70px;
+    text-align: center;
+  }
+  footer.blog-footer .container ul.upper-navigation li {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  footer.blog-footer .container ul.lower-navigation {
+    padding-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    float: none;
+  }
+  footer.blog-footer .container p {
+    margin-right: 15px;
+    margin-bottom: 45px;
+    text-align: center;
+    float: none;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer.blog-footer {
+    overflow: visible;
+    background-color: #171717;
+  }
+  footer.blog-footer .container ul.upper-navigation {
+    margin-right: 0;
+    padding: 0 30px;
+    margin-top: 25px;
+    text-align: center;
+    float: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    list-style-type: none;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    border-bottom: 0.5px solid #2c2c2c;
+  }
+  footer.blog-footer .container ul.upper-navigation li {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  footer.blog-footer .container ul.upper-navigation li a {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    line-height: 3;
+  }
+  footer.blog-footer .container ul.lower-navigation {
+    padding: 0 30px;
+    margin-right: 0px;
+    margin-top: 25px;
+    text-align: center;
+    float: none;
+  }
+  footer.blog-footer .container ul.lower-navigation li {
+    margin-top: 0px;
+  }
+  footer.blog-footer .container ul.lower-navigation li a {
+    font-size: 9px;
+    letter-spacing: 0.6px;
+    line-height: 1.33;
+  }
+  footer.blog-footer .container p {
+    margin-right: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    float: none;
+    font-size: 9px;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  footer.blog-footer .container ul.upper-navigation {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  footer.blog-footer .container ul.upper-navigation {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1249px) and (min-width: 1200px) {
+  section.blog-posts .container {
+    max-width: none;
+    width: 1170px;
+    padding: 0 10px;
+  }
+  section.blog-posts .container .blog-post:nth-child(even) {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  section.blog-posts .container {
+    max-width: none;
+    width: auto;
+  }
+  section.blog-posts .container .blog-post {
+    float: none !important;
+    margin: 0 auto !important;
+    margin-bottom: 60px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.blog-navigation .container ul li {
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  section.blog-posts .container {
+    max-width: none;
+    width: auto;
+  }
+  section.blog-posts .container .blog-post {
+    float: none !important;
+    margin: 0 auto !important;
+    margin-bottom: 60px !important;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  section.blog-posts .container {
+    max-width: none;
+    width: auto;
+  }
+  section.blog-posts .container .blog-post {
+    margin: 0 15px;
+    margin-bottom: 60px;
+  }
+  section.blog-posts .container .blog-post h2 {
+    margin-top: 30px;
+  }
+  section.blog-posts .container .blog-post button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.blog-navigation .container ul {
+    margin-top: 20px;
+  }
+  section.blog-navigation .container ul li {
+    line-height: 35px;
+    margin-left: 0;
+  }
+  section.blog-navigation .container ul li a {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+  }
+  section.blog-posts .container {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  section.blog-posts .container > div:last-child a.workshop-button {
+    display: none;
+  }
+  section.blog-posts .container .blog-post {
+    margin: 0 15px;
+    margin-bottom: 25px;
+  }
+  section.blog-posts .container .blog-post h2 {
+    margin-top: 25px;
+    margin-left: 25px;
+    padding-right: 15px;
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+  section.blog-posts .container .blog-post .button-div {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  section.blog-posts .container .blog-post .button-div span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 590px) {
+  section.blog-posts .container .blog-post {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    float: none !important;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  section.blog-structure .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.blog-structure {
+    margin-top: 35px;
+  }
+  section.blog-structure .container {
+    max-width: 740px;
+    display: inherit;
+  }
+  section.blog-structure .container .left-side, section.blog-structure .container .right-side {
+    width: 100%;
+    float: none;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    margin-left: 0;
+    max-width: none;
+  }
+  section.blog-structure .container .left-side .blog-container, section.blog-structure .container .right-side .blog-container {
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+  }
+  section.blog-structure .container .left-side .author-information, section.blog-structure .container .right-side .author-information {
+    float: left;
+    width: 50%;
+    max-width: 300px;
+    margin-left: 25px;
+  }
+  section.blog-structure .container .left-side .training-information, section.blog-structure .container .right-side .training-information {
+    float: right;
+    width: 50%;
+    margin-top: 0;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    max-width: 300px;
+    margin-right: 25px;
+    margin-left: auto;
+    z-index: -1;
+  }
+  section.blog-structure .container .left-side .training-information .visible-sm.breakthrough, section.blog-structure .container .right-side .training-information .visible-sm.breakthrough {
+    background-color: #171717;
+    box-shadow: none;
+    width: 100%;
+    height: 20px;
+  }
+  section.blog-structure .container .right-side {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 3 100%;
+        -ms-flex: 3 100%;
+            flex: 3 100%;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.blog-structure {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  section.blog-structure .container {
+    max-width: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inherit;
+  }
+  section.blog-structure .container .left-side {
+    padding-bottom: 5px;
+    margin-bottom: 35px;
+  }
+  section.blog-structure .container .left-side, section.blog-structure .container .right-side {
+    width: 100%;
+    float: none;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    margin-left: 0;
+    max-width: none;
+  }
+  section.blog-structure .container .left-side .blog-container, section.blog-structure .container .right-side .blog-container {
+    padding: 0 15px;
+  }
+  section.blog-structure .container .left-side .blog-container h1, section.blog-structure .container .right-side .blog-container h1 {
+    font-size: 30px;
+  }
+  section.blog-structure .container .left-side .blog-container .answer h2, section.blog-structure .container .right-side .blog-container .answer h2 {
+    font-size: 16px;
+  }
+  section.blog-structure .container .left-side .blog-container .answer .qoute h3, section.blog-structure .container .right-side .blog-container .answer .qoute h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    font-size: 24px;
+  }
+  section.blog-structure .container .left-side .author-information, section.blog-structure .container .right-side .author-information {
+    overflow: auto;
+    text-align: center;
+  }
+  section.blog-structure .container .left-side .author-information p, section.blog-structure .container .right-side .author-information p {
+    text-align: left;
+  }
+  section.blog-structure .container .left-side .author-information h5, section.blog-structure .container .right-side .author-information h5 {
+    margin-left: 0;
+  }
+  section.blog-structure .container .left-side .author-information button, section.blog-structure .container .right-side .author-information button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 450px) {
+  section.blog-structure .container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  section.blog-structure .container .right-side .author-information p {
+    padding: 0 50px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.beyond-training-program .container .content {
+    padding-bottom: 135px;
+  }
+  section.beyond-training-program .container .content p {
+    padding: 0 70px;
+  }
+  section.main-page-blogs .container h1 {
+    padding: 0 25px;
+  }
+  section.background-video .main h1 {
+    padding: 0 20px;
+  }
+  section.background-video .main p {
+    line-height: 1.5;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  a.main-page-read-main {
+    font-size: 12px !important;
+  }
+  button.btn-red-main {
+    padding: 0 35px !important;
+  }
+  a.read-main {
+    font-size: 12px !important;
+  }
+  section.beyond-training-program {
+    background: #0b0b0b;
+  }
+  section.beyond-training-program .container .content {
+    padding-bottom: 60px;
+    padding-top: 35px;
+  }
+  section.beyond-training-program .container .content .workshop-wrapper a {
+    font-size: 14px !important;
+  }
+  section.beyond-training-program .container .content h1 {
+    font-size: 26px;
+    margin-top: 10px;
+  }
+  section.beyond-training-program .container .content p {
+    padding: 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  section.beyond-training-program .container .content .button-div {
+    margin-top: 10px;
+  }
+  section.beyond-training-program .container .content .button-div span {
+    text-indent: -25px;
+    line-height: 50px;
+  }
+  section.beyond-training-program .container .content .button-div button {
+    height: 50px;
+  }
+  section.main-page-blogs .container {
+    margin-bottom: 30px;
+  }
+  section.main-page-blogs .container h1 {
+    padding: 0 15px;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+  section.main-page-blogs .container .workshop-wrapper {
+    padding: 1px 15px;
+  }
+  section.main-page-blogs .container .workshop-wrapper a {
+    font-size: 14px !important;
+  }
+  section.main-page-blogs .container .blog-post:nth-last-child(2) {
+    margin-bottom: 20px !important;
+  }
+  section.main-page-blogs .container .blog-post h2 {
+    font-size: 28px;
+  }
+  section.main-page-blogs .container .blog-post .button-div span i {
+    left: 20px;
+  }
+  section.main-page-blogs .container .blog-post .button-div button {
+    padding: 0 25px !important;
+  }
+  section.background-video .button-down {
+    margin-bottom: 15px;
+  }
+  section.background-video .main h1 {
+    padding: 0 15px;
+    font-size: 26px;
+  }
+  section.background-video .main p {
+    line-height: 1.5;
+    margin-top: 25px;
+    padding: 0 15px;
+    font-size: 18px;
+  }
+  section.background-video .main .button-div button {
+    height: 50px;
+  }
+  section.background-video .main .button-div span {
+    font-size: 16px;
+    line-height: 50px;
+  }
+  section.background-video .main .button-div span i {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  section.about-us-container .container .tab-content .tab-pane .about-main, section.about-us-container .container .tab-content .tab-pane .about-person {
+    margin: 0 50px;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-main .featured .icons .icon {
+    margin-left: 65px !important;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-main .featured .icons .icon:first-child {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.about-us-container .container .tab-content #our-story {
+    padding: 0 15px;
+  }
+  section.about-us-container .container .tab-content #our-story .information {
+    margin-top: 60px;
+  }
+  section.about-us-container .container .tab-content #our-story .information .boxes .info-box {
+    max-width: inherit;
+    width: 50%;
+    border: solid 0.5px #383838 !important;
+  }
+  section.about-us-container .container .tab-content #our-story .answer .articles .article {
+    margin-top: 0px;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-main, section.about-us-container .container .tab-content .tab-pane .about-person {
+    margin: 0 50px;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-main ol {
+    padding: 0 70px;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-main .featured .icons {
+    margin-top: 15px !important;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-main .featured .icons .icon {
+    margin-left: 0px !important;
+    width: 30%;
+    margin-top: 20px;
+  }
+  section.about-us-container .container .tab-content .tab-pane .about-person img.person {
+    height: calc(100% - 200px) !important;
+    top: 200px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.about-us-container .container ul.nav {
+    margin-top: 25px;
+  }
+  section.about-us-container .container .tab-content {
+    margin-top: -80px;
+  }
+  section.about-us-container .container .tab-content #our-story {
+    padding: 0 20px;
+  }
+  section.about-us-container .container .tab-content #our-story .video {
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+  section.about-us-container .container .tab-content #our-story .answer h3 {
+    font-size: 16px;
+  }
+  section.about-us-container .container .tab-content #our-story .answer p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  section.about-us-container .container .tab-content #our-story .answer .articles {
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+  section.about-us-container .container .tab-content #our-story .answer .articles .article {
+    margin-top: 20px;
+  }
+  section.about-us-container .container .tab-content #our-story .answer .articles .article .dashed-line {
+    display: none;
+  }
+  section.about-us-container .container .tab-content #our-story .answer .articles .article a.workshop-button {
+    display: none !important;
+  }
+  section.about-us-container .container .tab-content #our-story .answer .articles .article a.workshop-text {
+    font-size: 14px !important;
+  }
+  section.about-us-container .container .tab-content #our-story .information {
+    margin-top: 40px;
+  }
+  section.about-us-container .container .tab-content #our-story .information .boxes .info-box {
+    width: 100%;
+    margin: 0 auto;
+    border: solid 0.5px #383838 !important;
+  }
+  section.about-us-container .container .tab-content #our-story .information .software-used {
+    margin-top: 65px;
+  }
+  section.about-us-container .container .tab-content #our-story .information .software-used p {
+    white-space: pre-wrap;
+    line-height: normal;
+  }
+  section.about-us-container .container .tab-content #our-story .information .software-used .icons {
+    margin-bottom: 65px;
+  }
+  section.about-us-container .container .tab-content #our-story .information .software-used .icons .icon {
+    width: 25%;
+    margin-left: 0;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main, section.about-us-container .container .tab-content #the-bio .about-person {
+    margin-top: 95px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main h1, section.about-us-container .container .tab-content #the-bio .about-person h1 {
+    font-size: 26px;
+    margin-left: 25px;
+    text-transform: uppercase;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main h3, section.about-us-container .container .tab-content #the-bio .about-person h3 {
+    font-size: 14px;
+    margin-left: 25px;
+    padding-right: 20px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main p, section.about-us-container .container .tab-content #the-bio .about-person p {
+    margin-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main img.person, section.about-us-container .container .tab-content #the-bio .about-person img.person {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main ol, section.about-us-container .container .tab-content #the-bio .about-person ol {
+    padding-left: 45px;
+    padding-right: 15px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main ol li, section.about-us-container .container .tab-content #the-bio .about-person ol li {
+    font-size: 14px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main img, section.about-us-container .container .tab-content #the-bio .about-person img {
+    margin-bottom: 30px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main .featured, section.about-us-container .container .tab-content #the-bio .about-person .featured {
+    margin: 0 10px;
+    margin-top: 45px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main .featured span, section.about-us-container .container .tab-content #the-bio .about-person .featured span {
+    padding: 0 20px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main .featured .icons, section.about-us-container .container .tab-content #the-bio .about-person .featured .icons {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-main .featured .icons .icon, section.about-us-container .container .tab-content #the-bio .about-person .featured .icons .icon {
+    display: inline-block;
+    clear: both;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-person {
+    margin-top: 30px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-person h1 {
+    font-size: 29px;
+    margin-left: 25px;
+    padding-top: 25px;
+  }
+  section.about-us-container .container .tab-content #the-bio .about-person h3 {
+    font-size: 15px;
+    margin-left: 25px;
+    padding-right: 20px;
+  }
+  section.about-us-container .container .tab-content #the-bio .heart-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  section.about-us-container .container .tab-content #the-bio .heart-container p {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  section.about-us-container .container .tab-content #our-story .information .boxes .info-box {
+    margin-left: -8px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  section.about-us-container .container .tab-content #our-story .information .boxes .info-box {
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.content .container {
+    padding: 0 20px;
+  }
+  section.content .container .video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  section.content .container h3 {
+    font-size: 18px;
+    line-height: 1.81;
+  }
+  section.content .container p {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  section.content .container .free-things {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  section.content .container .free-things ul {
+    padding-left: 0px;
+  }
+  section.content .container .free-things ul li {
+    overflow: auto;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 0;
+  }
+  section.content .container .free-things ul li:first-child {
+    margin-top: 10px;
+  }
+  section.content .container .free-things ul li:last-child {
+    margin-bottom: 20px;
+  }
+  section.content .container .free-things ul li .workshop-wrapper {
+    margin-left: 15px;
+    margin-top: -25px;
+    display: inline-block;
+    padding-bottom: 0;
+    float: left;
+  }
+  section.content .container .free-things ul li .workshop-wrapper a {
+    font-size: 14px;
+    line-height: 1.93;
+  }
+  section.content .container .free-things ul li .dashed-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.content .container {
+    padding: 0 20px;
+  }
+  section.content .container .video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  section.content .container h3 {
+    font-size: 18px;
+    line-height: 1.81;
+  }
+  section.content .container p {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  section.content .container .free-things {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  section.content .container .free-things ul {
+    padding-left: 0px;
+  }
+  section.content .container .free-things ul li {
+    overflow: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  section.content .container .free-things ul li:first-child {
+    margin-top: 10px;
+  }
+  section.content .container .free-things ul li:last-child {
+    margin-bottom: 20px;
+  }
+  section.content .container .free-things ul li .workshop-wrapper {
+    margin-left: 15px;
+    margin-top: -25px;
+    display: inline-block;
+    padding-bottom: 0;
+    float: left;
+  }
+  section.content .container .free-things ul li .workshop-wrapper a {
+    font-size: 14px;
+    line-height: 1.93;
+  }
+  section.content .container .free-things ul li .workshop-wrapper a.workshop-button {
+    display: none;
+  }
+  section.content .container .free-things ul li .dashed-line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.landing-main .container {
+    max-width: none;
+    padding: 0 25px;
+  }
+  section.landing-main .container h2 {
+    font-size: 40px;
+  }
+  section.landing-main .container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.landing-main {
+    margin-bottom: 50px;
+  }
+  section.landing-main .container {
+    max-width: none;
+    padding: 0 20px;
+  }
+  section.landing-main .container h4 {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  section.landing-main .container h2 {
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: -0.5px;
+  }
+  section.landing-main .container p {
+    padding: 0;
+    font-size: 14px;
+  }
+  section.landing-main .container button {
+    height: 60px;
+    width: 100%;
+    margin-left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 30px;
+    letter-spacing: 0.6px;
+  }
+  section.landing-main .container span {
+    font-size: 12px;
+  }
+  section.landing-main .container img {
+    margin-top: -15px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.launch .container .weekly-updates h2 {
+    font-size: 32px;
+  }
+  section.launch .container .weekly-updates .selections {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 75px;
+  }
+  section.launch .container .weekly-updates .selections button {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.background-video.coming-soon-video {
+    height: 450px;
+    max-height: 450px;
+  }
+  section.background-video.coming-soon-video .main img {
+    display: none;
+  }
+  section.background-video.coming-soon-video .main h3 {
+    padding: 0 25px;
+    font-size: 20px;
+  }
+  section.background-video.coming-soon-video .main button {
+    height: 50px;
+    line-height: 50px;
+  }
+  section.launch .container h4.countdown {
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 30px;
+  }
+  section.launch .container h4.countdown span.launch-text {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  section.launch .container h4.countdown span:not(.launch-text) {
+    font-size: 14px;
+  }
+  section.launch .container .video {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  section.launch .container .weekly-updates {
+    margin-bottom: 30px;
+  }
+  section.launch .container .weekly-updates h2 {
+    font-size: 26px;
+  }
+  section.launch .container .weekly-updates p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  section.launch .container .weekly-updates .selections {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding: 0 15px;
+  }
+  section.launch .container .weekly-updates .selections input, section.launch .container .weekly-updates .selections button {
+    width: 100%;
+    max-width: none !important;
+  }
+  section.launch .container .weekly-updates .selections input.email, section.launch .container .weekly-updates .selections button {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  section.launch .container .weekly-updates .selections input {
+    margin-bottom: 5px;
+  }
+  section.launch .container .weekly-updates .selections button {
+    background-color: rgba(191, 62, 62, 0.77) !important;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  section.launch .container .weekly-updates .selections span {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+
+body {
+  background-color: #171717;
+}
+
+.fadeMe {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  top: 0;
+  overflow: hidden;
+  left: 0;
+  position: fixed;
+  opacity: 0;
+  background-color: black;
+  display: none;
+}
+
+a.load-more-videos,
+a.read-main {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  letter-spacing: normal;
+  line-height: 1.61;
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  position: relative;
+  top: 25px;
+  clear: both;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed transparent;
+}
+
+a.load-more-videos.main-page-read-main,
+a.read-main.main-page-read-main {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+a.load-more-videos:hover, a.load-more-videos:active, a.load-more-videos:focus,
+a.read-main:hover,
+a.read-main:active,
+a.read-main:focus {
+  border-color: #979797;
+}
+
+.solid-heading {
+  display: inline-block;
+  background-image: linear-gradient(to right, #505050 70%, transparent 70%);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 4px 1px;
+  padding: 0px 0px 0px 3px;
+  overflow: hidden;
+  background-image: none;
+}
+
+.solid-heading a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: none;
+  top: 0;
+  padding-bottom: 4px;
+}
+
+.dashed-heading, .workshop-wrapper {
+  display: inline-block;
+}
+
+.dashed-heading .dashed-line, .workshop-wrapper .dashed-line {
+  height: 1px;
+  margin-top: 1px;
+  background-image: linear-gradient(to right, #505050 70%, transparent 70%);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 4px 1px;
+  overflow: inherit !important;
+}

@@ -1,0 +1,146 @@
+// VARIABLES
+$RobotoMono: 'Roboto Mono', monospace, sans-serif
+$Roboto: 'Roboto', sans-serif
+
+@import "icons"
+@import "header"
+@import "button-div"
+@import "navigation"
+@import "blog"
+
+// PAGES
+@import "pages/coming-soon"
+@import "pages/landing"
+@import "pages/blog-inner"
+@import "pages/getting-started"
+@import "pages/index"
+@import "pages/about-story"
+@import "pages/about-bio"
+
+// SECTIONS
+@import "sections/blog-posts"
+@import "sections/sign-up"
+@import "sections/footer"
+
+
+// -- START of RESPONSIVENESS
+
+// RESPONSIVENESS FOR MAIN THINGS
+@import "responsiveness/screen-small"
+@import "responsiveness/screen-mobile"
+
+// HEADER
+@import "responsiveness/header/screen-mobile"
+
+// FOOTER
+@import "responsiveness/footer/screen-medium"
+@import "responsiveness/footer/screen-small"
+@import "responsiveness/footer/screen-mobile"
+
+// BLOG
+@import "responsiveness/blog/screen-medium"
+@import "responsiveness/blog/screen-small"
+@import "responsiveness/blog/screen-mobile"
+
+// BLOG POST PAGE
+@import "responsiveness/blog-post/screen-medium"
+@import "responsiveness/blog-post/screen-small"
+@import "responsiveness/blog-post/screen-mobile"
+
+// MAIN PAGE
+@import "responsiveness/main-page/screen-small"
+@import "responsiveness/main-page/screen-mobile"
+
+// ABOUT US PAGES
+@import "responsiveness/about-us/screen-medium"
+@import "responsiveness/about-us/screen-small"
+@import "responsiveness/about-us/screen-mobile"
+
+// GETTING STARTED PAGE
+@import "responsiveness/getting-started/screen-small"
+@import "responsiveness/getting-started/screen-mobile"
+
+// LANDING PAGE
+@import "responsiveness/landing-page/screen-small"
+@import "responsiveness/landing-page/screen-mobile"
+
+// COMING SOON PAGE
+@import "responsiveness/coming-soon/screen-small"
+@import "responsiveness/coming-soon/screen-mobile"
+
+// END of RESPONSIVENESS --
+
+
+body
+    background-color: #171717
+
+.fadeMe
+    width: 100%
+    height: 100%
+    z-index: 3
+    top: 0
+    overflow: hidden
+    left: 0
+    position: fixed
+    opacity: 0
+    background-color: black
+    display: none
+
+a.load-more-videos,
+a.read-main
+    text-align: center
+    color: white
+    text-decoration: none
+    letter-spacing: normal
+    line-height: 1.61
+    font-stretch: normal
+    font-style: normal
+    font-size: 18px
+    font-weight: 300
+    font-family: $RobotoMono
+    position: relative
+    top: 25px
+    clear: both
+    display: inline-block
+    padding-bottom: 5px
+    border-bottom: 1px dashed transparent
+
+    &.main-page-read-main
+        text-transform: uppercase
+        font-size: 16px
+        letter-spacing: 4px
+        font-family: $Roboto
+
+    &:hover, &:active, &:focus
+        border-color: #979797
+
+.solid-heading
+    display: inline-block
+    background-image: linear-gradient(to right, #505050 70%, transparent 70%)
+    background-position: bottom
+    background-repeat: repeat-x
+    background-size: 4px 1px
+    padding: 0px 0px 0px 3px
+    overflow: hidden
+    background-image: none
+
+    a
+        font-size: 16px
+        font-family: $Roboto
+        letter-spacing: 4px
+        text-transform: uppercase
+        border-bottom: none
+        top: 0
+        padding-bottom: 4px
+
+.dashed-heading, .workshop-wrapper
+    display: inline-block
+
+    .dashed-line
+        height: 1px
+        margin-top: 1px
+        background-image: linear-gradient(to right, #505050 70%, transparent 70%)
+        background-position: bottom
+        background-repeat: repeat-x
+        background-size: 4px 1px
+        overflow: inherit !important

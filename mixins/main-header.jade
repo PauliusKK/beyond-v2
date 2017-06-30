@@ -1,0 +1,50 @@
+.fadeMe
+header.main-header
+    nav.navbar.navbar-default
+
+        // Navigation header, which contains that "hamburger" menu
+        .navbar-header
+            a(href="").navbar-brand.menu Beyond Tells
+
+        // Actual navigation, which contains menu items.
+        .navbar-right
+            ul.nav.navbar-nav
+                li: button.home.btn-navigation(type='button')
+                        span.text MENU
+                        span
+                        span
+                        span
+                        span
+
+        nav.menu-appear
+            ol.navigation-ol
+
+                li.front-line( item='00' ): +dashed-heading('Home')
+                li.front-line( item='01' ): +dashed-heading('About Us')
+                li.front-line( item='02' ): +dashed-heading('Getting Started')
+                li.front-line( item='03' ): +dashed-heading('The 8 Week Course')
+                li.front-line: .dashed-line-appoint
+                li.front-line.item-free-content( item='04' )
+
+                    +dashed-heading('Free Content')
+
+                    ul
+                        li: +dashed-heading('The Insights')
+                        li: +dashed-heading('Our Research')
+                        li: +dashed-heading('Questions')
+                        li: +dashed-heading('Behavioral Deviants')
+                        li: +dashed-heading('Random')
+
+                li.front-line( item='05' ): +dashed-heading('Free Workshops')
+                li.front-line: .dashed-line-appoint
+                li.front-line( item='06' ): +dashed-heading('Contact')
+                li.front-line( item='07' ): +dashed-heading('Course Login')
+
+            footer
+                ul.list-inline
+                    li: i.icon-social-twitter
+                    li: i.icon-social-facebook
+                    li: i.icon-social-instagram
+                    li: i.icon-social-youtube
+
+                p &copy; 2017 BEYOND TELLS ALL RIGHT RESERVED

@@ -1,0 +1,89 @@
+button.btn-red-main
+    border: none
+    background-color: rgba(191, 62, 62, 0.5)
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5)
+    height: 68px
+    line-height: 68px
+    color: white
+    letter-spacing: 2.9px
+    margin: 0 auto
+    display: block
+    line-height: normal
+    font-stretch: normal
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    text-transform: uppercase
+    padding: 0 60px
+    margin-top: 60px
+    font-family: $RobotoMono
+    transition: all 0.15s linear
+
+    &:hover, &:active, &:focus
+        background-color: rgba(191, 62, 62, 0.7)
+
+.button-div
+    position: relative
+    opacity: 0
+    top: 50px
+    display: inline-block
+    transition: all 1000ms ease-in-out
+
+    &.fadeIn
+        opacity: 1
+        top: 0
+
+    span
+        font-family: $RobotoMono
+        font-size: 18px
+        font-weight: normal
+        font-style: normal
+        font-stretch: normal
+        line-height: normal
+        letter-spacing: 2.9px
+        color: white
+        text-transform: uppercase
+        position: absolute
+        line-height: 68px
+        left: 0
+        top: 15px
+        right: 0
+        z-index: 2
+        cursor: pointer
+        text-indent: -30px
+        padding: 0 61px
+        white-space: nowrap
+        transition: text-indent 700ms ease-in-out
+
+        &.active
+            text-indent: 0
+
+        i
+            position: relative
+            left: 30px
+            opacity: 1
+            transition: opacity 600ms ease-out
+
+            &.active
+                opacity: 0
+
+    .button-wipe
+        position: absolute
+        top: 15px
+        width: 0%
+        height: 68px
+        right: 0
+        bottom: 0
+        background-color: #bf3e3e
+        transition: width 700ms ease-in-out
+
+        &.active
+            width: 100%
+
+    button
+        margin-top: 15px
+        transition: all 700ms ease-in-out
+        color: rgba(0, 0, 0, 0)
+
+        &.active
+            box-shadow: 0 10px 20px 0 rgba(191, 62, 62, .5)

@@ -1,0 +1,70 @@
+doctype html
+html(lang='en-US')
+    head
+        include ../mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="../styles/main.css")
+
+    body
+        include ../mixins/mixins
+        include ../mixins/main-header
+
+        section.blog-navigation
+            .container
+                ul.list-inline
+                    li.active: a(href="") Most Popular
+                    li: a(href="") The Insights
+                    li: a(href="") Questions
+                    li: a(href="") The Research
+                    li: a(href="") Special Projects
+
+        section.blog-posts
+            .container
+                +blog-post("How to Use The Hashville Tone System to Destroy Things", '../images/blog-post.png')
+                +blog-post("The Hidden Value of the Hands in Poker", '../images/blog-post.png')
+                +blog-post("How to Use The Hashville Tone System to Destroy Things", '../images/blog-post.png')
+                +blog-post("The Hidden Value of the Hands in Poker", '../images/blog-post.png')
+                +blog-post("How to Use The Hashville Tone System to Destroy Things", '../images/blog-post.png')
+                +blog-post("The Hidden Value of the Hands in Poker", '../images/blog-post.png')
+                +blog-post("How to Use The Hashville Tone System to Destroy Things", '../images/blog-post.png')
+                +blog-post("The Hidden Value of the Hands in Poker", '../images/blog-post.png')
+
+                +appearing-button('load more content', 'load more >')
+
+
+        section.sign-up
+            .container
+                h1 What is the average blink rate at the poker table?
+                p Gain insights into this and dozens of other critical elements from the beyond tells study<br />Every single week. We did a lof of research :)
+
+                .selections
+                    input.name(type="text", placeholder="Name")
+                    input.email(type="email", placeholder="Email")
+                    button.sign-up-now(type="submit") SIGN UP NOW
+
+
+        footer.blog-footer
+            .container
+                ul.list-inline.upper-navigation
+                    li: a(href="") Home
+                    li: a(href="") About
+                    li: a(href="") Getting Started
+                    li: a(href="") Blog/Content
+                    li: a(href="") Free Workshop
+                    li: a(href="") The Training
+                    li: a(href="") Login
+                    li: a(href="") Contact
+
+                ul.list-inline.lower-navigation
+                    li: a(href="") Privacy Policy
+                    li: a(href="") Disclaimer
+                    li: a(href="") Designed by Blake
+
+                p &copy; Beyond Tells 2017 All Rights Reserved
+
+
+        include ../mixins/footer
+
+        // Main JS
+        script(src="../js/main.js")

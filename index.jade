@@ -1,0 +1,86 @@
+doctype html
+html(lang='en-US')
+    head
+        include mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="styles/main.css")
+
+    body
+        include mixins/mixins
+        include mixins/main-header
+
+        section.background-video
+
+            .main
+                h1 <span>We Dissect,</span> <span>Analyze,</span> <span>& Breakdown</span> <br /> <span>the Nonverbal Behaviors of Poker Players</span>
+                p Our roots are in Poker, Psychology, and Nonverbal Behavior… We were made for this…
+
+                +button-div('Watch The Video')
+
+            .button-down: i.icon-icon-arrow
+
+
+        section.blog-posts.main-page-blogs: .container
+            +appearing-button('we created a poker tells training program', 'read more >')
+
+            h1 Our roots are in Poker, Psychology, and Nonverbal Behavior... We were made for this...
+
+            +blog-post("How to Use The Hashville Tone System to Destroy Things")
+            +blog-post("The Hidden Value of the Hands in Poker")
+            +blog-post("How to Use The Hashville Tone System to Destroy Things")
+            +blog-post("The Hidden Value of the Hands in Poker")
+            +blog-post("How to Use The Hashville Tone System to Destroy Things")
+            +blog-post("The Hidden Value of the Hands in Poker")
+            +blog-post("How to Use The Hashville Tone System to Destroy Things")
+            +blog-post("The Hidden Value of the Hands in Poker")
+
+            +appearing-button('read more on our blog', 'read more >')
+
+
+        section.beyond-training-program: .container
+            .content
+                +appearing-button('we created a poker tells training program', 'read more >')
+
+                h1 The Beyond Tells training
+                p Read Any Player, Give Off Nothing, Become Hyper Aware, and Learn to Psychologically Manipulate Your Opponents
+
+                +button-div('Learn More')
+
+
+        footer.blog-footer
+            .container
+                ul.list-inline.upper-navigation
+                    li: a(href="") Home
+                    li: a(href="") About
+                    li: a(href="") Getting Started
+                    li: a(href="") Blog/Content
+                    li: a(href="") Free Workshop
+                    li: a(href="") The Training
+                    li: a(href="") Login
+                    li: a(href="") Contact
+
+                ul.list-inline.lower-navigation
+                    li: a(href="") Privacy Policy
+                    li: a(href="") Disclaimer
+                    li: a(href="") Designed by Blake
+
+                p &copy; Beyond Tells 2017 All Rights Reserved
+
+
+        include mixins/footer
+
+        // Jquery Easing
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+
+        // Jquery Color Animation
+        script(src="js/color-animations.min.js")
+
+        // Transit.JS
+        script(src="js/transit.min.js")
+
+        // Mobile Detect.JS
+        script(src="//cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.6/mobile-detect.min.js")
+
+        // Main JS
+        script(src="js/main.js")

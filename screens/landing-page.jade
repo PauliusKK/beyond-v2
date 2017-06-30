@@ -1,0 +1,52 @@
+doctype html
+html(lang='en-US')
+    head
+        include ../mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="../styles/main.css")
+
+    body
+        include ../mixins/mixins
+        include ../mixins/main-header
+
+        section.landing-main: .container
+            h4 A free beyond tells video course
+            h2 Do You Know to Read the Behavior of a Player?
+            p Most players have no idea how valueable tells can be at the table. We will give you a full understanding of how they are in this 3 part series.
+            img(src="../images/blog-post.png", alt="")
+            button Learn to read behavior now
+
+        footer.blog-footer
+            .container
+                ul.list-inline.upper-navigation
+                    li: a(href="") Home
+                    li: a(href="") About
+                    li: a(href="") Getting Started
+                    li: a(href="") Blog/Content
+                    li: a(href="") Free Workshop
+                    li: a(href="") The Training
+                    li: a(href="") Login
+                    li: a(href="") Contact
+
+                ul.list-inline.lower-navigation
+                    li: a(href="") Privacy Policy
+                    li: a(href="") Disclaimer
+                    li: a(href="") Designed by Blake
+
+                p &copy; Beyond Tells 2017 All Rights Reserved
+
+
+        include ../mixins/footer
+
+        // Main JS
+        script(src="../js/main.js")
+
+        // Jquery Easing
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+
+        // Jquery Color Animation
+        script(src="../js/color-animations.min.js")
+
+        // Transit.JS
+        script(src="../js/transit.min.js")

@@ -1,0 +1,157 @@
+doctype html
+html(lang='en-US')
+    head
+        include ../mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="../styles/main.css")
+
+    body
+        include ../mixins/mixins
+        include ../mixins/main-header
+
+        section.about-us-container
+            .background
+
+            .container
+                ul.nav.nav-tabs
+                    li.active(role="presentation"): a(href="#our-story", aria-controls="our-story", role="tab", data-toggle="tab") Our Story
+                    li.bio(role="presentation"): a(href="#the-bio", aria-controls="the-bio", role="tab", data-toggle="tab") The Bio's
+
+                .tab-content
+                    #our-story.tab-pane.fade.in.active(role="tabpanel")
+
+                        .video
+                            .wistia-video
+                                .wistia_responsive_padding(style="padding: 56.25% 0 0 0; position: relative;")
+                                    .wistia_responsive_wrapper(style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;")
+                                        .wistia_embed.wistia_async_jxv4no0s6w(class="seo=false videoFoam=true", style="height: 100%; width: 100%;") &nbsp;
+
+                        .answer
+                            h3 01. What do we do?
+                            p For those of you who don’t like watching through the single most powerfur communication medium in the world. ie. This video. We conduct large scale, big data, analysis on the nonverbal behavior of poker players. Not for research. Not for fun. But to advane the game and make players better through understanding and reading the nonverbal behavioras of their opponents.
+
+                            .articles
+                                .article: +appearing-button("1. How we setup the largest behavioral study every on poker players.")
+                                .article: +appearing-button("2. How we setup the largest behavioral study every on poker players.")
+                                .article: +appearing-button("3. How we setup the largest behavioral study every on poker players.")
+                                .article: +appearing-button("4. How we setup the largest behavioral study every on poker players.")
+
+                        .answer
+                            h3 02. What do we do?
+                            p For those of you who don’t like watching through the single most powerfur communication medium in the world. ie. This video. We conduct large scale, big data, analysis on the nonverbal behavior of poker players. Not for research. Not for fun. But to advane the game and make players better through understanding and reading the nonverbal behavioras of their opponents.
+
+                            .articles
+                                .article: +appearing-button("1. How we setup the largest behavioral study every on poker players.")
+                                .article: +appearing-button("2. How we setup the largest behavioral study every on poker players.")
+                                .article: +appearing-button("3. How we setup the largest behavioral study every on poker players.")
+                                .article: +appearing-button("4. How we setup the largest behavioral study every on poker players.")
+
+
+                        .information
+
+                            .boxes
+                                +info-box('icon-icon-timer', 'The smallest element of time used in our study is 1/30 second.')
+
+                                .info-box: .content
+                                    span 6
+                                    p Number of times we re-did this website
+
+                                +info-box('icon-icon-computer', 'Beyond Tells was created entirely on macs.')
+                                +info-box('icon-icon-nyc', 'We are located in the greatest city in the world. NYC.')
+                                +info-box('icon-icon-smile', 'Over 154,000 Blinks Counted')
+                                +info-box('icon-icon-cup', 'Over 2,500+ Cups of Coffee Consumed')
+
+                            .software-used
+                                p Last but not least. We used the following technologies to create Beyond Tells
+
+                                .icons
+                                    .icon: img(src="../images/icon-photoshop.png", alt="")
+                                    .icon: img(src="../images/icon-illiustrator.png", alt="")
+                                    .icon: img(src="../images/icon-processing.png", alt="")
+                                    .icon: img(src="../images/icon-final-cut.png", alt="")
+                                    .icon: img(src="../images/icon-docs.png", alt="")
+                                    .icon: img(src="../images/icon-sheets.png", alt="")
+                                    .icon: img(src="../images/icon-excel.png", alt="")
+                                    .icon: img(src="../images/icon-spss.png", alt="")
+                                    .icon: img(src="../images/icon-sketch.png", alt="")
+                                    .icon: img(src="../images/icon-spotify.png", alt="")
+
+
+                    #the-bio.tab-pane.fade(role="tabpanel")
+                        // Put something here...
+
+                        .about-main
+                            h1 Blake Westman
+                            h3 Founder, Creator, & the guy in the videos
+
+                            img.fluid(src="../images/blog-post.png", alt="")
+
+                            ol
+                                li I am the founder of School of Cards. First, brick and mortar poker school in the country. I basically, taught live poker classes for 5 years and have personally worked with several thousand poker players.  I believe this experience to provide me with a big edge because I get to see the flaws of my students and better understand their weakness and fallacies.
+
+                                li I was an adjunct psychology professor at the City University of New York for 6 years. I taught General Psychology, Developmental Psychology, and Group Dynamic. My roots are in forensic psychology with an emphasis on psychological testing.
+
+                                li I own a behavioral research company called The Nonverbal Group. We do large scale studies on human behavior and I also coach executives and teams in areas of communication.
+
+                                li I played Cash Games professionally for awhile. I don’t play professionally anymore, but just started playing tournament poker this year seriously and have done decent. $200k in cashes with a 4th place finish in the 5K 6-Max and a very deep run in the 2016 WSOP Main Event. You will see me on the tournament circuit playing various games and can follow my stuff here.
+
+                                li I love coffee, anything tech, data vizualiztion, research, web development, boxing, optimizing performance, fantasy & spy books, anything apple, marketing….. oh and I am obsessed with design. About 95% of what you are seeing was designed by me. Something I take great pride in…
+
+                            .featured
+
+                                span I have been featured in:
+
+                                .icons
+                                    .icon: img(src="../images/icon-espn.png", alt="")
+                                    .icon: img(src="../images/icon-vice.png", alt="")
+                                    .icon: img(src="../images/icon-cnn.png", alt="")
+                                    .icon: img(src="../images/icon-dailyshow.png", alt="")
+                                    .icon: img(src="../images/icon-allin.png", alt="")
+                                    .icon: img(src="../images/icon-nbc.png", alt="")
+
+
+                        +about-person('Blake Coolman', 'Founder, Creator, & The guy in the videos')
+                            p For those of you who don’t like watching through the single most powerfur communication medium in the world. ie. This video. We conduct large scale, big data, analysis on the nonverbal behavior of poker players. Not for research. Not for fun. But to advane the game and make players better through understanding and reading the nonverbal behavioras of their opponents. <br /><br /> But to advane the game and make players better through understanding and reading the nonverbal behavioras of their opponents.
+
+                        .heart-container
+                            i.icon-icon-heart
+                            p A special thanks to Shattique, Mark, Rudy, Matt, Balwin, and the other 30+ members on the research team that worked on this project in various capacities and made Beyond Tells a reality.
+
+
+        footer.blog-footer
+            .container
+                ul.list-inline.upper-navigation
+                    li: a(href="") Home
+                    li: a(href="") About
+                    li: a(href="") Getting Started
+                    li: a(href="") Blog/Content
+                    li: a(href="") Free Workshop
+                    li: a(href="") The Training
+                    li: a(href="") Login
+                    li: a(href="") Contact
+
+                ul.list-inline.lower-navigation
+                    li: a(href="") Privacy Policy
+                    li: a(href="") Disclaimer
+                    li: a(href="") Designed by Blake
+
+                p &copy; Beyond Tells 2017 All Rights Reserved
+
+
+        include ../mixins/footer
+
+        // Main JS
+        script(src="../js/main.js")
+
+        // Jquery Easing
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+
+        // Jquery Color Animation
+        script(src="../js/color-animations.min.js")
+
+        // Transit.JS
+        script(src="../js/transit.min.js")
+
+        script(src="//fast.wistia.com/embed/medias/jxv4no0s6w.jsonp" async)
+        script(src="//fast.wistia.com/assets/external/E-v1.js" async)

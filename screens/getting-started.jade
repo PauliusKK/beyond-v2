@@ -1,0 +1,47 @@
+doctype html
+html(lang='en-US')
+    head
+        include ../mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="../styles/main.css")
+
+    body
+        include ../mixins/mixins
+        include ../mixins/main-header
+
+        section.content
+
+            .container
+                .video: .wistia_embed.wistia_async_jxv4no0s6w(class="seo=false videoFoam=true")
+
+                h3 01. A QUICK SUMMARY
+                p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… Come on we are poker player. ne of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker player.
+
+                h3 02. WE PRODUCE A TON OF FREE CONTENT
+                p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker player. One of our goals is to advance the study of human behavior and also try to shift the poker communites goal.
+
+                .free-things
+                    ul OUR FREE WORKSHOPS
+                        li: +appearing-button("Double Your Stack: A 4-Day Free Training Designed to Change the Way your Profit")
+                        li: +appearing-button("The Workshop: A 3-Day Free Training Designed to Change the Way your Profit")
+                        li: +appearing-button("Double Your Stack: A 4-Day Free Training Designed to Change the Way your Profit")
+                        li: +appearing-button("The Workshop: A 3-Day Free Training Designed to Change the Way your Profit")
+
+                    ul OUR FREE ARTICLES (MORE ON THE VLOG)
+                        li: +appearing-button("Double Your Stack: A 4-Day Free Training Designed to Change the Way your Profit")
+                        li: +appearing-button("The Workshop: A 3-Day Free Training Designed to Change the Way your Profit")
+                        li: +appearing-button("Double Your Stack: A 4-Day Free Training Designed to Change the Way your Profit")
+                        li: +appearing-button("The Workshop: A 3-Day Free Training Designed to Change the Way your Profit")
+
+                h3 02. WE DEVELOPED A TRAINING PROGRAM
+                p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players…
+
+
+        include ../mixins/footer
+
+        // Main JS
+        script(src="../js/main.js")
+
+        script(src="//fast.wistia.com/embed/medias/jxv4no0s6w.jsonp" async)
+        script(src="//fast.wistia.com/assets/external/E-v1.js" async)

@@ -1,0 +1,98 @@
+doctype html
+html(lang='en-US')
+    head
+        include ../mixins/head
+
+        // Main CSS file
+        link(rel="stylesheet", href="../styles/main.css")
+
+    body
+        include ../mixins/mixins
+        include ../mixins/main-header
+
+        section.background-video.coming-soon-video: .main
+            img(src="../images/training.png", alt="")
+            h3 Read any Player, Give Off Nothing, Become Hyper Aware, & Psychologically manipulate your opponents
+            button Learn more
+
+        section.launch.content: .container
+            h4.countdown <span class="launch-text">We launch In:</span> <span class="days"></span> days <span class="line">|</span> <span class="hours"></span> hours <span class="line">|</span> <span class="minutes"></span> min <span class="line">|</span> <span class="seconds"></span> sec
+
+            .video
+                .wistia-video
+                    .wistia_responsive_padding(style="padding: 56.25% 0 0 0; position: relative;")
+                        .wistia_responsive_wrapper(style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;")
+                            .wistia_embed.wistia_async_jxv4no0s6w(class="seo=false videoFoam=true", style="height: 100%; width: 100%;") &nbsp;
+
+            .weekly-updates
+                h2 Get Weekly Updates and The First Week For Free
+                p Take the first week for free and access our amazing content and systms.
+
+                .selections
+                    input.name(type="text", placeholder="Name")
+                    input.email(type="email", placeholder="Email")
+                    button.sign-up-now(type="submit") SIGN UP NOW
+                    span NO CREDIT CARD REQURIED
+
+            h3 01. A QUICK SUMMARY
+            p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… Come on we are poker player. ne of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker player.
+
+            h3 02. WE PRODUCE A TON OF FREE CONTENT
+            p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker player. One of our goals is to advance the study of human behavior and also try to shift the poker communites goal.
+
+            h3 01. A QUICK SUMMARY
+            p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker players… Come on we are poker player. ne of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker player.
+
+            h3 02. WE PRODUCE A TON OF FREE CONTENT
+            p One of our goals is to advance the study of human behavior and also try to shift the poker communites goal. Come on we are poker player. One of our goals is to advance the study of human behavior and also try to shift the poker communites goal.
+
+            .weekly-updates
+                h2 Get Weekly Updates and The First Week For Free
+                p Take the first week for free and access our amazing content and systms.
+
+                .selections
+                    input.name(type="text", placeholder="Name")
+                    input.email(type="email", placeholder="Email")
+                    button.sign-up-now(type="submit") SIGN UP NOW
+                    span NO CREDIT CARD REQURIED
+
+
+        footer.blog-footer
+            .container
+                ul.list-inline.upper-navigation
+                    li: a(href="") Home
+                    li: a(href="") About
+                    li: a(href="") Getting Started
+                    li: a(href="") Blog/Content
+                    li: a(href="") Free Workshop
+                    li: a(href="") The Training
+                    li: a(href="") Login
+                    li: a(href="") Contact
+
+                ul.list-inline.lower-navigation
+                    li: a(href="") Privacy Policy
+                    li: a(href="") Disclaimer
+                    li: a(href="") Designed by Blake
+
+                p &copy; Beyond Tells 2017 All Rights Reserved
+
+
+        include ../mixins/footer
+
+        // Main JS
+        script(src="../js/main.js")
+
+        // Jquery Easing
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+
+        // Jquery Color Animation
+        script(src="../js/color-animations.min.js")
+
+        // Transit.JS
+        script(src="../js/transit.min.js")
+
+        // Timer Countdown
+        script(src="../js/timer.js")
+
+        script(src="//fast.wistia.com/embed/medias/jxv4no0s6w.jsonp" async)
+        script(src="//fast.wistia.com/assets/external/E-v1.js" async)

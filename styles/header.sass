@@ -1,0 +1,90 @@
+header.main-header nav
+    background-color: black
+    border: none
+    margin-bottom: 0
+
+    .navbar-header
+        height: 75px
+        margin-left: 30px
+
+        a
+            font-size: 15px
+            font-family: 'Helvetica Neue', sans-serif
+            color: white
+            letter-spacing: 5px
+            font-style: normal
+            font-stretch: normal
+            font-weight: 400
+            text-transform: uppercase
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+
+    .navbar-right
+        margin-right: 45px
+
+        ul li
+            line-height: 75px
+            display: table
+
+            button
+                background-color: transparent
+                color: white
+                letter-spacing: 2px
+                font-weight: 500
+                font-family: $RobotoMono
+                font-size: 12px
+                font-style: normal
+                font-stretch: normal
+                line-height: normal
+                border: none
+                box-shadow: none
+                vertical-align: middle
+                transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)
+                transform: rotate(0deg)
+                position: relative
+                outline: none
+                padding: 0 38px
+                z-index: 10
+
+                span:not(.text)
+                    display: block
+                    position: absolute
+                    height: 2px
+                    background-color: white
+                    opacity: 1
+                    width: 25px
+                    right: 0
+                    float: right
+                    top: 0
+                    transform: rotate(0deg)
+                    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)
+
+                    &.extended
+                        width: 80px !important
+                        background-color: #bf3e3e !important
+
+                    &.halfway-open
+                        width: 25px !important
+                        background-color: #bf3e3e !important
+
+                span:nth-child(2)
+                    top: 0px
+
+                    &.opened
+                        width: 20px !important
+                        background-color: #bf3e3e !important
+                        transform: rotate(-45deg)
+                        top: 8px
+
+                span:nth-child(3), span:nth-child(4)
+                    top: 7px
+
+                span:nth-child(5)
+                    top: 14px
+
+                    &.opened
+                        width: 20px !important
+                        background-color: #bf3e3e !important
+                        transform: rotate(45deg)
+                        top: 8px

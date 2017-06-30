@@ -1,0 +1,49 @@
+mixin button-div(text)
+    .button-div
+        span #{text}
+            i.icon-play
+
+        button.btn-red-main #{text}
+        .button-wipe
+
+mixin blog-post(text, imgURL)
+    .blog-post
+
+        - imgURL = typeof imgURL != "undefined" ? imgURL : 'images/blog-post.png'
+        img(src=imgURL, alt="Poker")
+        .after-image
+        h2 #{text}
+        +button-div('Watch Video')
+
+mixin solid-heading(text)
+    .solid-heading
+        a.read-main(href="") #{text}
+
+mixin dashed-heading(text)
+    .dashed-heading
+        a(href="") #{text}
+        .dashed-line
+
+mixin appearing-button(text, buttonText)
+    .workshop-wrapper
+        a.workshop-text(href="") #{text}
+            .dashed-line
+
+        - buttonText = typeof buttonText != "undefined" ? buttonText : 'Learn More >'
+        a.workshop-button(href="") #{buttonText}
+
+mixin info-box(iconClass, text)
+    .info-box: .content
+        i(class=iconClass)
+        p #{text}
+
+mixin about-person(name, about)
+    .about-person
+        h1 #{name}
+        h3 #{about}
+        img.person(src="../images/blog-post.png", alt="")
+
+        if block
+            block
+        else
+            p No content provided

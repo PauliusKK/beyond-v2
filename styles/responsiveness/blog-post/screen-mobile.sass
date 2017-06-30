@@ -1,0 +1,64 @@
+@media screen and (max-width: 767px)
+    section.blog-structure
+        margin-top: 25px
+        margin-bottom: 35px
+
+        .container
+            max-width: none
+            width: 100%
+            padding-left: 15px
+            padding-right: 15px
+            display: inherit
+
+            .left-side
+                padding-bottom: 5px
+                margin-bottom: 35px
+
+            .left-side, .right-side
+                width: 100%
+                float: none
+                flex: none
+                margin-left: 0
+                max-width: none
+
+                .blog-container
+                    padding: 0 15px
+
+                    h1
+                        font-size: 30px
+
+                    .answer
+
+                        h2
+                            font-size: 16px
+
+                        .qoute h3
+                            margin-top: 30px
+                            margin-bottom: 30px
+                            padding: 0 15px
+                            font-size: 24px
+
+                .author-information
+                    overflow: auto
+                    text-align: center
+
+                    p
+                        text-align: left
+
+                    h5
+                        margin-left: 0
+
+                    button
+                        display: block
+                        margin-left: auto
+                        margin-right: auto
+
+@media screen and (max-width: 767px) and (min-width: 450px)
+    section.blog-structure .container
+        padding-right: 25px
+        padding-left: 25px
+
+        .right-side .author-information p
+            padding: 0 50px
+            margin-left: 0
+            text-align: center
